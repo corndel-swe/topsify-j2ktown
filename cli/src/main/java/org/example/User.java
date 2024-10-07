@@ -10,7 +10,7 @@ public class User {
     String password;
 
     public String getFirst_name() {
-        return first_name;
+        return first_name.replace("'", "''");
     }
 
     public String getId() {
@@ -22,7 +22,7 @@ public class User {
     }
 
     public String getLast_name() {
-        return last_name;
+        return last_name.replace("'", "''");
     }
 
     public String getEmail() {

@@ -17,7 +17,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="bd34ee54-5abd-415b-a545-152dec4bc3d6">
-      <console name="Topsify" type="STANDARD" schema="" session="Main" />
+      <console name="Topsify" type="STANDARD" schema="main" session="Main"><![CDATA[DELETE from users;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -25,7 +25,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" object-ref="schemas/main/tables/artists" />
+      <object connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" object-ref="consoles/Topsify" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
@@ -33,9 +33,13 @@
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" dataset="main.albums" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" dataset="main.users" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" dataset="main.tracks" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" dataset="main.artists" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" dataset="main.features" active-filter-id="EMPTY_FILTER" />
+  </component>
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
