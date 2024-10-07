@@ -27,20 +27,28 @@ public class Main {
 
         StringBuilder allQueries = new StringBuilder();
 
+        // Iterate over the list of users
         for (User user : users) {
-
-            String insertQuery = String.format("INSERT INTO users VALUES(%d, '%s', '%s', '%s', '%s', '%s');",
-                    user.getId(),
+            // Initialize the insertQuery for each user
+            String insertQuery = String.format("INSERT INTO users VALUES('%s', '%s', '%s', '%s', '%s', '%s');",
+                    user.getId(),  // Use %s for String
                     user.getUsername(),
                     user.getFirst_name(),
                     user.getLast_name(),
                     user.getEmail(),
-                    user.getAvatar(),
-            allQueries.append(insertQuery).append("\n")); // Append each query and add a new line
+                    user.getAvatar());
+
+            // Append the formatted query to allQueries
+            allQueries.append(insertQuery).append("\n"); // Append a new line for readability
         }
 
-            Files.writeString(Paths.get("db", "seeds","users.sql"), allQueries.toString());
+        // Write the SQL queries to a file
+        try {
+            Files.writeString(Paths.get("users.sql"), allQueries.toString());
             System.out.println("SQL statements written to users.sql");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 
