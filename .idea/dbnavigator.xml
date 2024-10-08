@@ -25,7 +25,8 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" object-ref="consoles/Topsify" />
+      <object connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" object-ref="schemas/main/tables/tracks" />
+      <object connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" object-ref="schemas/main/tables/albums" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
