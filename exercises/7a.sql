@@ -17,4 +17,6 @@
 --     password: '6CGHykGWEzFYRA_'
 --   }
 -- ]
-
+INSERT into users(first_name, last_name, email, username, password)
+values ('Vincenza', 'Kovacek','Vincenza.Kovacek35@hotmail.com', 'Vincenza.Kovacek', 'oH_d5pqv7Ne0_Mc' ),
+('Lionel', 'Ruecker','Lionel.Ruecker@yahoo.com', 'Lionel_Ruecker27', '6CGHykGWEzFYRA_' );
