@@ -27,8 +27,9 @@
     <open-files>
       <object connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" object-ref="schemas/main/tables/users" />
       <object connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" object-ref="schemas/main/tables/albums" />
+      <object connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" object-ref="schemas/main/tables/playlists" />
+      <object connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" object-ref="schemas/main/tables/playlists_tracks" />
       <object connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" object-ref="schemas/main/tables/tracks" />
-      <object connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" object-ref="schemas/main/tables/genres" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
@@ -37,10 +38,12 @@
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" dataset="main.albums" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" dataset="main.users" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" dataset="main.playlists_tracks" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" dataset="main.tracks" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" dataset="main.artists" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" dataset="main.features" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" dataset="main.track_genres" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" dataset="main.playlists" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" dataset="main.genres" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
@@ -60,6 +63,7 @@
     <mapping file-url="file://$PROJECT_DIR$/exercises/6b.sql" connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/exercises/7a.sql" connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/db/migrations/playlist_migrations.sql" connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" session-id="MAIN" current-schema="main" />
+    <mapping file-url="file://$PROJECT_DIR$/db/seeds/playlists.sql" connection-id="bd34ee54-5abd-415b-a545-152dec4bc3d6" session-id="MAIN" current-schema="main" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
